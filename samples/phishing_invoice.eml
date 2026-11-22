@@ -1,0 +1,26 @@
+From: Accounts <billing@quick-invoices.top>
+To: ron@example.com
+Subject: Invoice #4821 overdue
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+Please see the attached invoice and pay today.
+
+--BOUNDARY
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+SGVsbG8=
+--BOUNDARY
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Disposition: attachment; filename="payment_details.docm"
+Content-Transfer-Encoding: base64
+
+SGVsbG8=
+--BOUNDARY--
