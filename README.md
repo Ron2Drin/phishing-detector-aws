@@ -338,3 +338,7 @@ aws ec2 describe-nat-gateways --filter Name=state,Values=available \
 
 **Two instances in two AZs, no public IP**
 ![Instances](docs/screenshots/06-instances.png)
+
+
+**`terraform destroy` verified: no instances, DB, load balancer or NAT gateway left**
+![Destroy verified](docs/screenshots/07-destroy-verified.png)
